@@ -1,0 +1,63 @@
+/*(grupselektor) bakrundsfärg*/
+body, p{background-color:rgb(180, 237, 241);}
+table {border-spacing: 5px}
+/*(typselektor) Storlek 20px på td*/
+td {font-size: 20px;}
+/*th 20px och vänsetrjusterad text*/
+th {
+    font-size: 20px; 
+    text-align: left
+}
+/*tabel ram*/
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* en klass för att få ram på alla cellerna*/
+.restaurang{
+    border: 1px solid black;
+    padding: 30px;
+}
+/*classer för färger på tabel med zebrastriping*/
+.odd{background-color: gray;}
+.even{background-color: darkgray;}
+.header{background-color: black; color: white}
+/*class gör att texten i den globala menyn blir centrerad*/
+.display{padding: 40px 16px}
+
+/*gör lista till global meny*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*listan rör sig åt vänster*/
+li{
+    float: left;
+}
+/*Ändrar egengskaperna på de länkade skerna*/
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*gör texten grön när man hovrar över den (psuevdokod)*/
+li a:hover{
+    color: rgb(128, 255, 138);
+}
+
+/*klass gör listan till en vanlig*/
+.VanligLista{
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+    background-color: rgb(180, 237, 241);
+}
+.VanligLista li{
+    float: none;
+    padding: 10px;
+}

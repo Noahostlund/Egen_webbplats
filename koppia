@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Egen Webbplats</title>
+        <link rel="stylesheet" href="Egenwebbplats.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.ljungby.se/">
+                        <img src="Ljungbykommun.png" alt="Ljungby Kommun" style="width:150px;height:73px;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">Saker att göra i Ljungby</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="EgenwebbplatsRestauranger.html" >Restauranger</a>
+                </td>
+                <td> 
+                    <a href="Egenwebbplats_hotell.html">Hotell</a>
+                </td>
+                <td><a href="Egenwebbplats.html">Hem</a></td>
+            </tr>
+        </table>
+        <h1>Ljungby en stad mitt i Småland</h1>
+        <p>Mitt i Smålands skogar ligger en liten stad. Den ligger längs E4:an. I kommunen bor cirka 25000 personer och i samhället Ljungby bor cirka 15000 personer.
+        </p>
+        <p>Välkommen till vår stad!</p>
+
+
+<ul class="ul">
+    <li><a href="https://www.ljungby.se/">
+        <img src="Ljungbykommun.png" alt="Ljungby Kommun" style="width:150px;height:73px;">
+    </a></li>
+    <li class="display"><a href="Hem.html">Hem</a></li>
+    <li class="display"><a href="EgenwebbplatsRestauranger.html" >Restauranger</a></li>
+    <li class="display"><a href="Egenwebbplats_hotell.html">Hotell</a></li>
+</ul>
+    </body>
+</html>
